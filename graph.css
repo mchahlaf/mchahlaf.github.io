@@ -1,0 +1,113 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  background-color: #1e1e2e;
+  overflow-x: auto;
+  gap: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+}
+
+#Title {
+  font-family: 'Lato', sans-serif;
+  font-size: 36px;
+  color: #ffffff;
+}
+
+#Name {
+  font-family: 'Lato', sans-serif;
+  font-size: 36px;
+  color: #ffffff;
+}
+
+#IntraTitle {
+  color: #f3f3f3;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+#IntraName {
+  color: #f3f3f3;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+#ration {
+  background-color: #444466;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+#Textration {
+  color: #ffffff;
+}
+
+#total {
+  font-size: 50px;
+  margin-top: 20px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#FormConn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: #2e2e4a;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#AreaUser, #AreaMdp {
+  padding: 10px;
+  border-radius: 80px;
+  border: 1px solid #555;
+  background-color: #444;
+  color: #fff;
+  font-size: 16px;
+}
+
+#Send {
+  padding: 15px;
+  border-radius: 80px;
+  border: none;
+  background-color: #6a64ff;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#Send:hover {
+  background-color: #ffffff;
+  color: #4355ff
+}
+
+#delog {
+  margin-top: 15px;
+  padding: 20px;
+  border-radius: 80px;
+  border: none;
+  background-color: #ff4343;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#delog:hover {
+  background-color: #ffffff;
+  color: #ff4343
+}
+
+
+#ringsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
