@@ -14,6 +14,7 @@ body {
 
 .container {
     display: flex;
+    flex-direction: column;
     max-width: 1200px;
     margin: 20px auto;
     background-color: #fff;
@@ -27,7 +28,6 @@ body {
 }
 
 .left-panel {
-    width: 30%;
     background-color: #333;
     color: #fff;
 }
@@ -65,7 +65,6 @@ body {
 }
 
 .right-panel {
-    width: 70%;
     padding: 20px;
 }
 
@@ -111,4 +110,50 @@ body {
 
 .formations ul ul li, .experiences ul ul li {
     margin-bottom: 5px;
+}
+
+/* Media Queries pour les appareils de taille moyenne et petite */
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .left-panel {
+        width: 30%;
+    }
+
+    .right-panel {
+        width: 70%;
+    }
+}
+
+@media (max-width: 767px) {
+    .left-panel {
+        width: 100%;
+    }
+
+    .right-panel {
+        width: 100%;
+    }
+
+    .profile-photo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .intro h1 {
+        font-size: 1.5em;
+    }
+
+    .intro p {
+        font-size: 1em;
+    }
+
+    .formations h2, .experiences h2 {
+        font-size: 1.2em;
+    }
+
+    .formations strong, .experiences strong {
+        font-size: 1em;
+    }
 }
