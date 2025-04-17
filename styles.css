@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #f4f4f4;
+    background-color: #f1f9ff; /* Bleu clair pour le fond de la page */
     color: #333;
     line-height: 1.6;
 }
@@ -28,7 +28,7 @@ body {
 }
 
 .left-panel {
-    background-color: #333;
+    background-color: #007bff; /* Bleu Zone 01 */
     color: #fff;
 }
 
@@ -49,6 +49,7 @@ body {
     border-bottom: 2px solid #fff;
     padding-bottom: 10px;
     margin-bottom: 10px;
+    color: #fff;
 }
 
 .info p, .languages p, .skills ul, .interests p {
@@ -71,6 +72,7 @@ body {
 .intro h1 {
     font-size: 2em;
     margin-bottom: 10px;
+    color: #007bff; /* Bleu Zone 01 */
 }
 
 .intro p {
@@ -79,7 +81,7 @@ body {
 }
 
 .formations h2, .experiences h2 {
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #007bff; /* Bleu Zone 01 */
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
