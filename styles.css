@@ -7,8 +7,8 @@
 }
 
 body {
-    background-color: #f1f9ff; /* Bleu clair pour le fond de la page */
-    color: #1e2b67;
+    background-color: #f1f9ff;
+    color: #4a5c9a; /* couleur secondaire par défaut */
     line-height: 1.6;
 }
 
@@ -27,16 +27,9 @@ body {
     padding: 20px;
 }
 
-.etapes{
-    font-family: 'OCR A Std', monospace;
-    font-weight: 900; /* très gras */
-    color: #1e2b67;
-    text-transform: uppercase;
-}
-
 .left-panel {
-    background-color: #007bff; /* Bleu Zone 01 */
-    color: #fff;
+    background-color: #007bff;
+    color: #fff; /* texte blanc dans le panneau gauche */
 }
 
 .profile-photo {
@@ -57,10 +50,12 @@ body {
     padding-bottom: 10px;
     margin-bottom: 10px;
     color: #fff;
+    font-family: 'OCR A Std', monospace;
 }
 
 .info p, .languages p, .skills ul, .interests p {
     font-size: 0.9em;
+    color: #fff;
 }
 
 .skills ul, .interests ul {
@@ -76,29 +71,38 @@ body {
     padding: 20px;
 }
 
-.intro h1 {
+/* TITRES dans la partie droite */
+.intro h1,
+.formations h2,
+.experiences h2 {
     font-family: 'OCR A Std', monospace;
-    font-weight: 900; /* très gras */
-    color: #1e2b67;
-    font-size: 36px;
+    font-weight: 900;
+    color: #1e2b67; /* couleur principale */
     text-transform: uppercase;
+}
+
+.intro h1 {
+    font-size: 36px;
 }
 
 .intro p {
     font-family: 'OCR A Std', monospace;
     font-weight: 400;
-    color: #4a5c9a;
+    color: #4a5c9a; /* couleur secondaire */
     font-size: 20px;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 
-.formations h2, .experiences h2 {
-    border-bottom: 2px solid #007bff; /* Bleu Zone 01 */
+/* TITRES sous-sections */
+.formations h2,
+.experiences h2 {
+    border-bottom: 2px solid #007bff;
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
 
+/* Listes */
 .formations ul, .experiences ul {
     list-style-type: none;
     padding-left: 0;
@@ -108,16 +112,20 @@ body {
     margin-bottom: 20px;
 }
 
-.formations strong, .experiences strong {
+/* Textes en gras */
+.formations strong,
+.experiences strong {
     font-size: 1.1em;
-    color: #333;
+    color: #1e2b67; /* couleur principale */
 }
 
+/* Infos école ou entreprise */
 .school-info {
     font-size: 0.9em;
-    color: #666;
+    color: #4a5c9a; /* couleur secondaire */
 }
 
+/* Sous-listes */
 .formations ul ul, .experiences ul ul {
     margin-top: 10px;
     padding-left: 20px;
