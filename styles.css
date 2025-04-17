@@ -27,6 +27,13 @@ body {
     padding: 20px;
 }
 
+.etapes{
+    font-family: 'OCR A Std', monospace;
+    font-weight: 900; /* très gras */
+    color: #1e2b67;
+    text-transform: uppercase;
+}
+
 .left-panel {
     background-color: #007bff; /* Bleu Zone 01 */
     color: #fff;
