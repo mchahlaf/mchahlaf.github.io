@@ -29,7 +29,7 @@ body {
 
 .left-panel {
     background-color: #007bff;
-    color: #fff; /* texte blanc dans le panneau gauche */
+    color: #1e2b67; /* texte blanc dans le panneau gauche */
 }
 
 .profile-photo {
@@ -55,7 +55,7 @@ body {
 
 .info p, .languages p, .skills ul, .interests p {
     font-size: 0.9em;
-    color: #fff;
+    color: #1e2b67;
 }
 
 .skills ul, .interests ul {
