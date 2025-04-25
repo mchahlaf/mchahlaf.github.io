@@ -55,7 +55,7 @@ body {
 
 .info p, .languages p, .skills ul, .interests p {
     font-size: 0.9em;
-    color: #1e2b67;
+    color: #fff;
 }
 
 .skills ul, .interests ul {
